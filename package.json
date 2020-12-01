@@ -1,0 +1,22 @@
+{
+  "name": "aoc2018",
+  "version": "1.0.0",
+  "description": "http://adventofcode.com/2018",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "start": "bin/aoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavinaiken/aoc2018.git"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "debug": "^3.1.0",
+    "mocha": "^4.0.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
